@@ -1,0 +1,32 @@
+# Git Smash
+
+Git Smash is a project management tool that integrates with GitHub to help developers track project commits, view summaries, and manage team collaboration efficiently.
+
+## Features
+
+- **GitHub Integration**: Link projects to GitHub repositories.
+- **Commit Summaries**: Automatically generate concise summaries of commit changes using AI.
+- **Project Management**: Manage multiple projects and team members.
+- **Team Collaboration**: Invite team members and track their contributions.
+
+## Tech Stack
+
+- **Frontend**: React, Next.js, Tailwind CSS
+- **Backend**: Node.js, tRPC, Prisma
+- **Database**: PostgreSQL
+- **Authentication**: Clerk.js
+- **AI Summarization**: Google Generative AI (Gemini API)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Suhagshetty/Git-Smash.git
+   cd Git-Smash
+Usage
+
+    Create a New Project: Use the dashboard to create and link a project to a GitHub repository.
+    View Commits: Navigate to the project dashboard to see a list of commits and their summaries.
+    Invite Team Members: Collaborate with your team by inviting them to the project.
+
+PLEASE FREE FEEL TO CONTACT ME AT suhagshetty07@gmai.com
