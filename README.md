@@ -1,29 +1,156 @@
-# Create T3 App
+🚀 GitSmash
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+AI-Powered Code Collaboration & Repository Intelligence Platform
 
-## What's next? How do I make an app with this?
+GitSmash helps developers understand, review, and collaborate on codebases faster using AI-powered insights, real-time collaboration, and GitHub integration.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+🧠 Overview
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Modern codebases are large and complex. GitSmash solves this by combining AI-driven repository analysis with real-time peer collaboration, enabling teams to:Instantly understand unfamiliar repositories, Perform smarter code reviews with AI assistance, Collaborate live on code using peer-to-peer connections Track changes and insights across commits and branches
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+✨ Key Features
+🔍 AI Repository Intelligence
 
-## Learn More
+Automated repository summaries and structure analysis
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+AI-generated explanations for files, folders, and commits
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+Context-aware insights powered by T3 Chat + LangChain
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+💬 T3 Chat (AI Code Assistant)
 
-## How do I deploy this?
+Chat directly with your codebase
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Ask questions like:
+
+“What does this service do?”
+
+“Explain this function in simple terms”
+
+“What changed in the last 5 commits?”
+
+Uses repository context for accurate, grounded answers
+
+🤝 Real-Time Collaboration
+
+Live peer-to-peer code collaboration using WebRTC
+
+Shared sessions for reviewing and discussing code
+
+Low-latency communication without centralized servers
+
+🔗 GitHub Integration
+
+Authenticate and fetch repositories via GitHub API
+
+Analyze commit history, pull requests, and file changes
+
+Intelligent change tracking and diff insights
+
+🏗 Tech Stack
+Frontend
+
+Next
+
+Tailwind CSS
+
+ShadCN UI
+
+Backend
+
+Node.js
+
+Express.js
+
+REST APIs
+
+WebRTC (P2P collaboration)
+
+AI / Intelligence Layer
+
+T3 Chat
+
+LangChain
+
+LLM-powered repository analysis
+
+Context-aware embeddings for code understanding
+
+Integrations & Infra
+
+GitHub API
+
+WebSockets / WebRTC
+
+Docker
+
+🧩 System Architecture (High Level)
+User
+ │
+ ├── Next Frontend
+ │     ├── Repo Viewer
+ │     ├── T3 Chat Interface
+ │     └── Live Collaboration UI
+ │
+ ├── Node.js Backend
+ │     ├── GitHub API Integration
+ │     ├── Repo Parser & Indexer
+ │     └── AI Orchestration Layer
+ │
+ └── AI Layer (T3 Chat + LangChain)
+       ├── Code Context Retrieval
+       ├── Embeddings & Memory
+       └── LLM Response Generation
+
+⚙️ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/gitsmash.git
+cd gitsmash
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Environment Variables
+
+Create a .env file:
+
+GITHUB_TOKEN=your_github_token
+OPENAI_API_KEY=your_openai_key
+
+4️⃣ Run the App
+npm run dev
+
+🧪 Use Cases
+
+🚀 Onboard faster into new codebases
+
+🧠 Understand legacy projects with AI summaries
+
+👨‍💻 Conduct collaborative code reviews
+
+🤖 Ask AI questions directly about repository logic
+
+🛣 Roadmap
+
+ Pull request AI reviews
+
+ Multi-repo workspace support
+
+ Advanced RAG for large repositories
+
+ Voice-based AI code walkthroughs
+
+ Team collaboration & permissions
+
+👤 Author
+
+Suhag Shetty
+📧 suhagshetty07@gmail.com
+
+🔗 LinkedIn
+
+🐙 GitHub
+
+⭐ If you like this project
+
+Give it a ⭐ — it helps a lot and keeps me building 🚀
